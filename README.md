@@ -91,4 +91,4 @@ Explore how KubeArmor secures NVIDIA NIM deployments against potential threats u
 - **Cost-Effectiveness**: Combines security and operational efficiency without added complexity.  
 
 
-### Explore more use cases [here](https://help.accuknox.com/use-cases/modelarmor/)
+### For more use cases refer [Help Documentation](https://help.accuknox.com/use-cases/modelarmor/)

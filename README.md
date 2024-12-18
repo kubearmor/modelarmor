@@ -58,7 +58,8 @@ In scenarios involving untrustworthy inference engines or models, the following 
 As AI began to permeate every vertical for task automation, AccuKnox implemented an AI chatbot to enhance security. However, feedback from clients revealed widespread concerns about data security as AI analyzed sensitive information for insights.
 ModelArmor was created to address these concerns, offering security for AI models by leveraging the powerful detection and prevention capabilities of KubeArmor. Its architecture emphasizes proactive prevention of attacks through policy enforcement using eBPF and LSMs.
 
-![image2](https://github.com/user-attachments/assets/0842c329-038a-4e61-bd7a-c634baa605b0)
+![image](https://github.com/user-attachments/assets/de87f2cf-2e19-4c54-8804-9491cc5c4fee)
+
 
 ![image3](https://github.com/user-attachments/assets/53a77cf9-1117-4c9e-950a-c78a6d635d04)
 

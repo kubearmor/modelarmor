@@ -38,18 +38,29 @@ ModelArmor addresses several critical challenges in executing untrusted AI/ML mo
 8. **Securing CUDA Libraries**
    Helps in whitelisting specific processes or binaries to access CUDA libraries and denying access to unauthorized attempts to exploit CUDA libraries.
 
+![image1](https://github.com/user-attachments/assets/1fc356e4-76c7-484c-a7f0-35d926db4c4d)
+The biggest risk is users executing a random model downloaded from the Internet.  
 
 
 ## **Why It’s Needed?**
 
 In today’s AI-driven world, as the mundane becomes automated, it is crucial to consider the security of data being used by models. AI systems often have access to sensitive information such as intellectual property, PII, or insider data that could lead to significant losses if leaked. Without proper security, models could be misused for data exfiltration or ransomware attacks. Protecting models ensures they work safely, reliably, and follow rules, keeping systems and data secure. Hence, AI model security is an essential part of an AI-driven landscape to safeguard against these issues.
 
+In scenarios involving untrustworthy inference engines or models, the following steps are taken:  
+- Deploy in a sandbox  
+- Conduct detailed auditing and forensics  
+- Generate detailed reporting of behavior  
+- Avoid untrusted deployments altogether  
 
 
 ## **Origin Story and System Design**
 
 As AI began to permeate every vertical for task automation, AccuKnox implemented an AI chatbot to enhance security. However, feedback from clients revealed widespread concerns about data security as AI analyzed sensitive information for insights.
 ModelArmor was created to address these concerns, offering security for AI models by leveraging the powerful detection and prevention capabilities of KubeArmor. Its architecture emphasizes proactive prevention of attacks through policy enforcement using eBPF and LSMs.
+
+![image2](https://github.com/user-attachments/assets/0842c329-038a-4e61-bd7a-c634baa605b0)
+
+![image3](https://github.com/user-attachments/assets/53a77cf9-1117-4c9e-950a-c78a6d635d04)
 
 ## **Use Cases**
 
@@ -71,6 +82,8 @@ ModelArmor was created to address these concerns, offering security for AI model
 
 2. **[Keras Inject Attack and Apply Policies](https://drive.google.com/file/d/1olGBz3WUoJqmcAVdRY7uImKTHggRX6nK/preview)**
    Demonstrates Keras-based injection attacks and applying protective security policies.
+   
+![image4](https://github.com/user-attachments/assets/6147f5be-f0ba-42b0-ade6-f483d339a381)
 
 ### **Securing NVIDIA NIM**
 
